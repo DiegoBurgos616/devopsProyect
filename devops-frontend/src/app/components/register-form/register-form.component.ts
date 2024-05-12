@@ -2,8 +2,8 @@ import { Component } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { tap } from 'rxjs';
-import { CustomValidators } from 'src/app/_helpers/customValidators';
-import { AuthService } from 'src/app/services/auth.service';
+import { CustomValidators } from '../../_helpers/customValidators';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-register-form',
